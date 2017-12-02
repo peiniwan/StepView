@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/rlTimeline"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tvTopLine"
+            android:layout_width="1.2dp"
+            android:layout_height="12dp"
+            android:layout_centerHorizontal="true"
+            android:background="#999" />
+
+        <TextView
+            android:id="@+id/tvDot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTopLine"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/state_get_huankuan" />
+
+        <TextView
+            android:layout_width="1.2dp"
+            android:id="@+id/tvLine"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvDot"
+            android:layout_centerHorizontal="true"
+            android:background="#999" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="6dp"
+        android:paddingRight="10dp"
+        android:layout_marginLeft="20dp"
+        android:paddingTop="12dp">
+
+        <TextView
+            android:id="@+id/step_tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:text="10-20 22:22"
+            android:textColor="#cccccc"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/step_tv_des"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="15dp"
+            android:textStyle="bold"
+            android:layout_toLeftOf="@+id/step_tv_time"
+            android:text="fffffff" />
+
+        <TextView
+            android:id="@+id/step_tv_des_below"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/step_tv_des"
+            android:layout_marginTop="5dp"
+            android:text=""
+            android:textColor="#999999" />
+    </RelativeLayout>
+</LinearLayout>

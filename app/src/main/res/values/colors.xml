@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="crt_completed">#00AAEE</color>
+    <color name="crt_uncompleted">#CCCCCC</color>
+    <color name="crt_uncompleted_text">#333333</color>
+    <color name="crt_error_text">#F66A45</color>
+    <color name="crt_light_gray">#ffbcbcbc</color>
+    <color name="crt_text_hint_color">#CCCCCC</color>
+</resources>
